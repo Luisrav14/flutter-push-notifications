@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "661124723392",
+    "project_id": "flutter-notifications-3628c",
+    "storage_bucket": "flutter-notifications-3628c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661124723392:android:28f05606e806cc340f7325",
+        "android_client_info": {
+          "package_name": "com.example.push_notifications"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWu1MPvAyJBBWslwa4s2K22Hk6IDlrfS8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
