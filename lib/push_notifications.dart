@@ -3,8 +3,9 @@ import 'package:firebase_messaging/firebase_messaging.dart';
 class PushNotifications {
   static final _firebaseMessaging = FirebaseMessaging.instance;
 
-  // request notification persmission
+  // Método estático para inicializar las notificaciones push
   static Future init() async {
+    // Solicitar permisos para recibir notificaciones con diferentes características
     await _firebaseMessaging.requestPermission(
       alert: true,
       announcement: true,
@@ -14,8 +15,9 @@ class PushNotifications {
       provisional: false,
       sound: true,
     );
-    // get device token
-    //final token = await _firebaseMessaging.getToken();
-    //print('Device token: ' + token!);
+
+    // Obtener el token del dispositivo (para pruebas con Firebase)
+    // final token = await _firebaseMessaging.getToken();
+    // print('Device token: ' + token!);
   }
 }
